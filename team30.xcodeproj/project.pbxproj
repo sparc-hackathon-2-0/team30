@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0FBDFC15E92413004553D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0FBDFB15E92413004553D3 /* UIKit.framework */; };
+		2D0FBDFE15E92413004553D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0FBDFD15E92413004553D3 /* Foundation.framework */; };
+		2D0FBE0015E92413004553D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0FBDFF15E92413004553D3 /* CoreGraphics.framework */; };
+		2D0FBE0615E92414004553D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE0415E92414004553D3 /* InfoPlist.strings */; };
+		2D0FBE0815E92414004553D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FBE0715E92414004553D3 /* main.m */; };
+		2D0FBE0C15E92414004553D3 /* CelebPetNamesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FBE0B15E92414004553D3 /* CelebPetNamesAppDelegate.m */; };
+		2D0FBE0F15E92414004553D3 /* CelebPetNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FBE0E15E92414004553D3 /* CelebPetNamesViewController.m */; };
+		2D0FBE1215E92414004553D3 /* CelebPetNamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE1015E92414004553D3 /* CelebPetNamesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0FBDF715E92413004553D3 /* team30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = team30.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0FBDFB15E92413004553D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D0FBDFD15E92413004553D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D0FBDFF15E92413004553D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D0FBE0315E92414004553D3 /* team30-Info.plist */ = {isa = PBXFileReference; path = "team30-Info.plist"; sourceTree = "<group>"; };
+		2D0FBE0515E92414004553D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D0FBE0715E92414004553D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D0FBE0915E92414004553D3 /* team30-Prefix.pch */ = {isa = PBXFileReference; path = "team30-Prefix.pch"; sourceTree = "<group>"; };
+		2D0FBE0A15E92414004553D3 /* CelebPetNamesAppDelegate.h */ = {isa = PBXFileReference; path = CelebPetNamesAppDelegate.h; sourceTree = "<group>"; };
+		2D0FBE0B15E92414004553D3 /* CelebPetNamesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelebPetNamesAppDelegate.m; sourceTree = "<group>"; };
+		2D0FBE0D15E92414004553D3 /* CelebPetNamesViewController.h */ = {isa = PBXFileReference; path = CelebPetNamesViewController.h; sourceTree = "<group>"; };
+		2D0FBE0E15E92414004553D3 /* CelebPetNamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelebPetNamesViewController.m; sourceTree = "<group>"; };
+		2D0FBE1115E92414004553D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CelebPetNamesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0FBDF415E92413004553D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FBDFC15E92413004553D3 /* UIKit.framework in Frameworks */,
+				2D0FBDFE15E92413004553D3 /* Foundation.framework in Frameworks */,
+				2D0FBE0015E92413004553D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0FBDEC15E92413004553D3 = {
+			isa = PBXGroup;
+			children = (
+				2D0FBE0115E92414004553D3 /* team30 */,
+				2D0FBDFA15E92413004553D3 /* Frameworks */,
+				2D0FBDF815E92413004553D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0FBDF815E92413004553D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FBDF715E92413004553D3 /* team30.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0FBDFA15E92413004553D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FBDFB15E92413004553D3 /* UIKit.framework */,
+				2D0FBDFD15E92413004553D3 /* Foundation.framework */,
+				2D0FBDFF15E92413004553D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D0FBE0115E92414004553D3 /* team30 */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FBE0A15E92414004553D3 /* CelebPetNamesAppDelegate.h */,
+				2D0FBE0B15E92414004553D3 /* CelebPetNamesAppDelegate.m */,
+				2D0FBE0D15E92414004553D3 /* CelebPetNamesViewController.h */,
+				2D0FBE0E15E92414004553D3 /* CelebPetNamesViewController.m */,
+				2D0FBE1015E92414004553D3 /* CelebPetNamesViewController.xib */,
+				2D0FBE0215E92414004553D3 /* Supporting Files */,
+			);
+			path = team30;
+			sourceTree = "<group>";
+		};
+		2D0FBE0215E92414004553D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FBE0315E92414004553D3 /* team30-Info.plist */,
+				2D0FBE0415E92414004553D3 /* InfoPlist.strings */,
+				2D0FBE0715E92414004553D3 /* main.m */,
+				2D0FBE0915E92414004553D3 /* team30-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0FBDF615E92413004553D3 /* team30 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0FBE1515E92414004553D3 /* Build configuration list for PBXNativeTarget "team30" */;
+			buildPhases = (
+				2D0FBDF315E92413004553D3 /* Sources */,
+				2D0FBDF415E92413004553D3 /* Frameworks */,
+				2D0FBDF515E92413004553D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = team30;
+			productName = team30;
+			productReference = 2D0FBDF715E92413004553D3 /* team30.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0FBDEE15E92413004553D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CelebPetNames;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2D0FBDF115E92413004553D3 /* Build configuration list for PBXProject "team30" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D0FBDEC15E92413004553D3;
+			productRefGroup = 2D0FBDF815E92413004553D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0FBDF615E92413004553D3 /* team30 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0FBDF515E92413004553D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FBE0615E92414004553D3 /* InfoPlist.strings in Resources */,
+				2D0FBE1215E92414004553D3 /* CelebPetNamesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0FBDF315E92413004553D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FBE0815E92414004553D3 /* main.m in Sources */,
+				2D0FBE0C15E92414004553D3 /* CelebPetNamesAppDelegate.m in Sources */,
+				2D0FBE0F15E92414004553D3 /* CelebPetNamesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D0FBE0415E92414004553D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0FBE0515E92414004553D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D0FBE1015E92414004553D3 /* CelebPetNamesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0FBE1115E92414004553D3 /* en */,
+			);
+			name = CelebPetNamesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0FBE1315E92414004553D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D0FBE1415E92414004553D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0FBE1615E92414004553D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "team30/team30-Prefix.pch";
+				INFOPLIST_FILE = "team30/team30-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D0FBE1715E92414004553D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "team30/team30-Prefix.pch";
+				INFOPLIST_FILE = "team30/team30-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0FBDF115E92413004553D3 /* Build configuration list for PBXProject "team30" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0FBE1315E92414004553D3 /* Debug */,
+				2D0FBE1415E92414004553D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0FBE1515E92414004553D3 /* Build configuration list for PBXNativeTarget "team30" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0FBE1615E92414004553D3 /* Debug */,
+				2D0FBE1715E92414004553D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0FBDEE15E92413004553D3 /* Project object */;
+}
