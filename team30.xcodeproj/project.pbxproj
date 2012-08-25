@@ -22,13 +22,13 @@
 		2D0FBDFB15E92413004553D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D0FBDFD15E92413004553D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D0FBDFF15E92413004553D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2D0FBE0315E92414004553D3 /* team30-Info.plist */ = {isa = PBXFileReference; path = "team30-Info.plist"; sourceTree = "<group>"; };
+		2D0FBE0315E92414004553D3 /* team30-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "team30-Info.plist"; sourceTree = "<group>"; };
 		2D0FBE0515E92414004553D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D0FBE0715E92414004553D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D0FBE0915E92414004553D3 /* team30-Prefix.pch */ = {isa = PBXFileReference; path = "team30-Prefix.pch"; sourceTree = "<group>"; };
-		2D0FBE0A15E92414004553D3 /* CelebPetNamesAppDelegate.h */ = {isa = PBXFileReference; path = CelebPetNamesAppDelegate.h; sourceTree = "<group>"; };
+		2D0FBE0915E92414004553D3 /* team30-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "team30-Prefix.pch"; sourceTree = "<group>"; };
+		2D0FBE0A15E92414004553D3 /* CelebPetNamesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CelebPetNamesAppDelegate.h; sourceTree = "<group>"; };
 		2D0FBE0B15E92414004553D3 /* CelebPetNamesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelebPetNamesAppDelegate.m; sourceTree = "<group>"; };
-		2D0FBE0D15E92414004553D3 /* CelebPetNamesViewController.h */ = {isa = PBXFileReference; path = CelebPetNamesViewController.h; sourceTree = "<group>"; };
+		2D0FBE0D15E92414004553D3 /* CelebPetNamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CelebPetNamesViewController.h; sourceTree = "<group>"; };
 		2D0FBE0E15E92414004553D3 /* CelebPetNamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelebPetNamesViewController.m; sourceTree = "<group>"; };
 		2D0FBE1115E92414004553D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CelebPetNamesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
