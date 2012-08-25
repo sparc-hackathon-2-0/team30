@@ -15,6 +15,10 @@
 		2D0FBE0C15E92414004553D3 /* CelebPetNamesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FBE0B15E92414004553D3 /* CelebPetNamesAppDelegate.m */; };
 		2D0FBE0F15E92414004553D3 /* CelebPetNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FBE0E15E92414004553D3 /* CelebPetNamesViewController.m */; };
 		2D0FBE1215E92414004553D3 /* CelebPetNamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE1015E92414004553D3 /* CelebPetNamesViewController.xib */; };
+		2D0FBE1915E973F3004553D3 /* Pet Names Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE1815E973F3004553D3 /* Pet Names Icon.png */; };
+		2D0FBE1B15E97862004553D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE1A15E97862004553D3 /* Default@2x.png */; };
+		2D0FBE1F15E97D33004553D3 /* Pet Names Icon 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE1E15E97D33004553D3 /* Pet Names Icon 57x57.png */; };
+		2D0FBE2015E97E40004553D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FBE1C15E979EA004553D3 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		2D0FBE0D15E92414004553D3 /* CelebPetNamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CelebPetNamesViewController.h; sourceTree = "<group>"; };
 		2D0FBE0E15E92414004553D3 /* CelebPetNamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelebPetNamesViewController.m; sourceTree = "<group>"; };
 		2D0FBE1115E92414004553D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CelebPetNamesViewController.xib; sourceTree = "<group>"; };
+		2D0FBE1815E973F3004553D3 /* Pet Names Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pet Names Icon.png"; sourceTree = "<group>"; };
+		2D0FBE1A15E97862004553D3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2D0FBE1C15E979EA004553D3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2D0FBE1E15E97D33004553D3 /* Pet Names Icon 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pet Names Icon 57x57.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,10 @@
 		2D0FBDEC15E92413004553D3 = {
 			isa = PBXGroup;
 			children = (
+				2D0FBE1E15E97D33004553D3 /* Pet Names Icon 57x57.png */,
+				2D0FBE1C15E979EA004553D3 /* Default.png */,
+				2D0FBE1A15E97862004553D3 /* Default@2x.png */,
+				2D0FBE1815E973F3004553D3 /* Pet Names Icon.png */,
 				2D0FBE0115E92414004553D3 /* team30 */,
 				2D0FBDFA15E92413004553D3 /* Frameworks */,
 				2D0FBDF815E92413004553D3 /* Products */,
@@ -151,6 +163,10 @@
 			files = (
 				2D0FBE0615E92414004553D3 /* InfoPlist.strings in Resources */,
 				2D0FBE1215E92414004553D3 /* CelebPetNamesViewController.xib in Resources */,
+				2D0FBE1915E973F3004553D3 /* Pet Names Icon.png in Resources */,
+				2D0FBE1B15E97862004553D3 /* Default@2x.png in Resources */,
+				2D0FBE1F15E97D33004553D3 /* Pet Names Icon 57x57.png in Resources */,
+				2D0FBE2015E97E40004553D3 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
