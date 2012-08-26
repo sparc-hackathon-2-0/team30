@@ -9,16 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface CelebPetNamesViewController : UIViewController {
-    int currentQuestionIndex;
-    
     NSMutableArray *questions;
     NSMutableArray *answers;
     
-    IBOutlet UILabel *questionField;
-    IBOutlet UILabel *answerField;
+    IBOutlet UILabel *nameField;
 }
 
-- (IBAction)showQuestion:(id)sender;
-- (IBAction)showAnswer:(id)sender;
+- (IBAction)showName:(id)sender;
 
 @end

@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D0FBDF615E92413004553D3"
                BuildableName = "team30.app"
-               BlueprintName = "team30"
+               BlueprintName = "Pet Names"
                ReferencedContainer = "container:team30.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D0FBDF615E92413004553D3"
             BuildableName = "team30.app"
-            BlueprintName = "team30"
+            BlueprintName = "Pet Names"
             ReferencedContainer = "container:team30.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -52,7 +52,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D0FBDF615E92413004553D3"
             BuildableName = "team30.app"
-            BlueprintName = "team30"
+            BlueprintName = "Pet Names"
             ReferencedContainer = "container:team30.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,7 +70,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D0FBDF615E92413004553D3"
             BuildableName = "team30.app"
-            BlueprintName = "team30"
+            BlueprintName = "Pet Names"
             ReferencedContainer = "container:team30.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
